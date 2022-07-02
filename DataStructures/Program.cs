@@ -10,10 +10,12 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
+            CashCounter cashcounter = new CashCounter();
+            cashcounter.Count();
+            /*
             //Palindrome
             PalindromeChecker.checkPalindrome();
-
-            /*
+         
             SimpleBalancedParathesis.simpleBalance();
             Console.WriteLine("Welcome to Ordered List program");
             OrderList r = new OrderList();
