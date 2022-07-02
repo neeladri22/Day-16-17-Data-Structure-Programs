@@ -46,6 +46,7 @@
     <Compile Include="OrderList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleBalancedParathesis.cs" />
     <Compile Include="UnOrderList.cs" />
   </ItemGroup>
   <ItemGroup>

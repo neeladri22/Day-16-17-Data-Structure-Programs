@@ -11,6 +11,8 @@ namespace DataStructures
         static void Main(string[] args)
         {
 
+            SimpleBalancedParathesis.simpleBalance();
+            /*
             Console.WriteLine("Welcome to Ordered List program");
             OrderList r = new OrderList();
            
@@ -39,7 +41,7 @@ namespace DataStructures
 
             r.diplayData();
 
-            /*
+            
             Console.WriteLine("Welcome to Unordered List program");
             UnOrderList r = new UnOrderList();
             r.addFirst("Neeladri");
