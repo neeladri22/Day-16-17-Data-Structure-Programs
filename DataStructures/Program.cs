@@ -10,8 +10,37 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Unordered List program");
 
+            Console.WriteLine("Welcome to Ordered List program");
+            OrderList r = new OrderList();
+           
+            r.addFirst(22);
+            r.addFirst(33);
+            r.addFirst(11);
+            r.addFirst(55);
+            r.addFirst(44);
+            r.addFirst(66);
+            r.addFirst(88);
+
+            Console.WriteLine("Enter  number:");
+            int input = int.Parse(Console.ReadLine());
+
+            bool check = r.search(input);
+
+            if (check == true)
+            {
+                r.remove(input);
+            }
+            else
+            {
+               
+                r.addFirst(input);
+            }
+
+            r.diplayData();
+
+            /*
+            Console.WriteLine("Welcome to Unordered List program");
             UnOrderList r = new UnOrderList();
             r.addFirst("Neeladri");
             r.addFirst("Vamsi");
@@ -33,6 +62,8 @@ namespace DataStructures
             }
 
             r.diplayData();
+
+            */
 
         }
        
