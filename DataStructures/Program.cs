@@ -10,9 +10,11 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
+            //Palindrome
+            PalindromeChecker.checkPalindrome();
 
-            SimpleBalancedParathesis.simpleBalance();
             /*
+            SimpleBalancedParathesis.simpleBalance();
             Console.WriteLine("Welcome to Ordered List program");
             OrderList r = new OrderList();
            
@@ -68,6 +70,6 @@ namespace DataStructures
             */
 
         }
-       
+
     }
 }
