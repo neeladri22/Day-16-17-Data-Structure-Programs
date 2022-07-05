@@ -10,69 +10,69 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-
-            PrimeNumber2Dimension.PrimeNumber();
+            BinarySearchTree.DriverMethod();
             /*
-                        CashCounter cashcounter = new CashCounter();
-                        cashcounter.Count();
+           PrimeNumber2Dimension.PrimeNumber();
+           CashCounter cashcounter = new CashCounter();
+            cashcounter.Count();
 
-                        //Palindrome
-                        PalindromeChecker.checkPalindrome();
+            //Palindrome
+            PalindromeChecker.checkPalindrome();
 
-                        SimpleBalancedParathesis.simpleBalance();
-                        Console.WriteLine("Welcome to Ordered List program");
-                        OrderList r = new OrderList();
+            SimpleBalancedParathesis.simpleBalance();
+            Console.WriteLine("Welcome to Ordered List program");
+            OrderList r = new OrderList();
 
-                        r.addFirst(22);
-                        r.addFirst(33);
-                        r.addFirst(11);
-                        r.addFirst(55);
-                        r.addFirst(44);
-                        r.addFirst(66);
-                        r.addFirst(88);
+            r.addFirst(22);
+            r.addFirst(33);
+            r.addFirst(11);
+            r.addFirst(55);
+            r.addFirst(44);
+            r.addFirst(66);
+            r.addFirst(88);
 
-                        Console.WriteLine("Enter  number:");
-                        int input = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter  number:");
+            int input = int.Parse(Console.ReadLine());
 
-                        bool check = r.search(input);
+            bool check = r.search(input);
 
-                        if (check == true)
-                        {
-                            r.remove(input);
-                        }
-                        else
-                        {
+            if (check == true)
+            {
+                r.remove(input);
+            }
+            else
+            {
 
-                            r.addFirst(input);
-                        }
+                r.addFirst(input);
+            }
 
-                        r.diplayData();
+            r.diplayData();
 
 
-                        Console.WriteLine("Welcome to Unordered List program");
-                        UnOrderList r = new UnOrderList();
-                        r.addFirst("Neeladri");
-                        r.addFirst("Vamsi");
-                        r.addFirst("Laxman");
-                        r.addFirst("Hema");
-                        r.addFirst("Varsa");
-                        r.addFirst("Hemanth");
-                        r.addFirst("Mohan");
+            Console.WriteLine("Welcome to Unordered List program");
+            UnOrderList r = new UnOrderList();
+            r.addFirst("Neeladri");
+            r.addFirst("Vamsi");
+            r.addFirst("Laxman");
+            r.addFirst("Hema");
+            r.addFirst("Varsa");
+            r.addFirst("Hemanth");
+            r.addFirst("Mohan");
 
-                        string input = Console.ReadLine();
-                        bool check = r.search(input);
-                        if (check == true)
-                        {
-                            r.delete(input);
-                        }
-                        else
-                        {
-                            r.addFirst(input);
-                        }
+            string input = Console.ReadLine();
+            bool check = r.search(input);
+            if (check == true)
+            {
+                r.delete(input);
+            }
+            else
+            {
+                r.addFirst(input);
+            }
 
-                        r.diplayData();
+            r.diplayData();
 
-                        */
+            */
 
         }
 
